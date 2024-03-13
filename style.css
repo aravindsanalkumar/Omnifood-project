@@ -148,3 +148,120 @@ tint:#fdf2e9
     color:#fff;
     background-color: #e67e22;
 }
+
+/* ********************* */
+/* FEATURED SECTION */
+/* ********************* */
+.container{
+    max-width: 1200px;
+    padding: 0 32px;
+    margin: 0 auto;
+}
+
+
+.section-featured{
+    padding:48px 0 32px 0;
+}
+.heading-featured-in{
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+    font-weight: 500;
+    color:#888;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.logos{
+    display:flex;
+    justify-content: space-around;
+}
+
+.logos img{
+    height: 32px;
+    opacity: 50%;
+    filter: brightness(0);
+}
+/* ********************* */
+/* HOW IT WORKS */
+/* ********************* */
+.section-how{
+    padding:96px 0;
+}
+
+.step-img{
+    width:50%;
+}
+.step-img-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    column-gap: 6.4rem;
+    row-gap: 9.6rem;
+  }
+  
+  .grid:not(:last-child) {
+    margin-bottom: 9.6rem;
+  }
+  
+  .grid--2-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .grid--3-cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .grid--4-cols {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .grid--5-cols {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  
+  .grid--center-v {
+    align-items: center;
+  }
+  .step-number{
+    font-size:86px;
+    font-weight: 600;
+    color:#ddd;
+    margin-bottom: 12px;
+  }
+  .step-description{
+    font-size: 18px;
+    line-height: 1.8;
+  }
+  .heading-tertiary {
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 32px;
+    font-weight: 700;
+    color:#333;
+    letter-spacing: -0.5px;
+  }
+  .heading-primary {
+    font-size: 52px;
+    line-height: 1.05;
+    margin-bottom: 32px;
+  }
+  
+  .heading-secondary {
+    font-size: 44px;
+    line-height: 1.2;
+    margin-bottom: 96px;
+  }
+
+  .subheading {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #cf711f;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    letter-spacing: 0.75px;
+  }
